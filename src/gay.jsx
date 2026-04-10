@@ -18,7 +18,7 @@ function Gay() {
           </button>
         </>
       ) : (
-        <h1 className="result">zee balik na please</h1>
+        <h1 className="result">you are gay</h1>
       )}
     </div>
   );
