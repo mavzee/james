@@ -12,13 +12,13 @@ function Gay() {
     <div className="container">
       {!answered ? (
         <>
-          <h1 className="question">Are you a man?</h1>
+          
           <button className="btn" onClick={handleYes}>
-            Yes
+            click me!!
           </button>
         </>
       ) : (
-        <h1 className="result">You are gay bitch</h1>
+        <h1 className="result">You are gay</h1>
       )}
     </div>
   );
